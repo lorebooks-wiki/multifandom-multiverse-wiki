@@ -1,13 +1,15 @@
 # Project information
-site_name: Multifandom Multiverse of Madness
-site_url: https://multifandom-multiverse.lorebooks.eu.org
+site_name: Multifandom Multiverse Wiki
+site_url: https://multiverse.lorebooks.eu.org
 site_author: Recap Time Squad and contributors
 site_description: >-
-  An meta
+  One wiki to rule them all, across fandoms and communities. An ~ajhalili2006
+  pet project now adopted on lorebooks.wiki.
 
 # Repository
-repo_name: repo on sourcehut
-repo_url: https://git.sr.ht/~ajhalili2006/multifandom-multiverse
+repo_name: source on mau.dev
+repo_url: https://mau.dev/lorebooks.wiki/multifandom-multiverse-wiki
+edit_uri: edit/main/docs/
 
 # Configuration
 theme:
@@ -39,20 +41,23 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
+  icon:
+    logo: octicons/book-16
+  favicon: assets/branding/default-favicon_512.png
 
 # Extensions
 markdown_extensions:
@@ -99,3 +104,8 @@ markdown_extensions:
 nav:
   - Hub:
     - Home: index.md
+    - About the website: about.md
+    - Contribute:
+      - contribute/index.md
+      - Local development: contribute/localdev.md
+      - "Contributors' Handbook": contribute/handbook/index.md
